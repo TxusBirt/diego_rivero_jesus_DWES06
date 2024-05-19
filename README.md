@@ -1,6 +1,6 @@
-API JAVA desarrollada con spring boot.
+API JAVA desarrollada con spring boot. Se denomina: ServicioUsuario
 
-API PHP desarrollada con laravel. 
+API PHP desarrollada con laravel. Se denomina: diego_rivero_jesus_DWES06
 
 Una vez clonado el repositorio es necesario, para que los endpoint que se han facilitado funcionen, que la carpeta  hija, denominada igual que la padre, 
 diego_rivero_jesus se copie directamente en la carpeta htdocs de apache. Hay que instalar las dependecias con  el comando: composer install
