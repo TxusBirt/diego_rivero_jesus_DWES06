@@ -1,0 +1,71 @@
+Endpoints API usuarios:
+Directas a la API JAVA
+API JAVA
+
+GetAll
+http://localhost:8080/api/usuarios
+
+GetId
+Metodo GET
+Obtener 1 usuario por id:
+http://localhost:8080/api/usuarios/110
+
+CREATE
+Metodo POST
+Nota: para que realice las validaciones y muestre los mensajes personalizados de las validaciones se debe 	indicar en el header que la solicitud es un archivo json
+http://localhost:8080/api/usuarios
+
+{
+    "nombre": "Laura",
+    "departamento": "hola",
+    "id": 200
+}
+
+UPDATE
+Metodo PUT
+Nota: para que realice las validaciones y muestre los mensajes personalizados de las validaciones se debe 	indicar en el header que la solicitud es un archivo json
+http://localhost:8080/api/updateusuarios
+
+{
+    "nombre": "Pedro",
+    "departamento": "vamos",
+    "id": 200
+}
+DELETE
+Metodo DELETE
+http://localhost:8080/api/usuarios/200
+
+-----------------------------------------------------------------------------
+
+ENDPOINT para API PHP Desarrollada en LARAVEL para obtener datos a través de API JAVA
+GetAll
+https://localhost/diego_rivero_jesus_DWES06/public/api/vehiculos/usuarios
+GetId
+Metodo GET
+Obtener 1 usuario por id:
+https://localhost/diego_rivero_jesus_DWES06/public/api/vehiculos/usuarios/110
+
+CREATE
+Metodo POST
+Nota: para que realice las validaciones y muestre los mensajes personalizados de las validaciones se debe 	indicar en el header que la solicitud es un archivo json
+https://localhost/diego_rivero_jesus_DWES06/public/api/vehiculos/usuarios/create
+
+    {
+        "nombre": "Ramon",
+        "departamento": "Ingeniero",
+        "id": 200
+    }
+
+UPDATE
+Metodo PUT
+Nota: para que realice las validaciones y muestre los mensajes personalizados de las validaciones se debe 	indicar en el header que la solicitud es un archivo json
+https://localhost/diego_rivero_jesus_DWES06/public/api/vehiculos/usuarios/update
+
+    {
+        "nombre": "Luis",
+        "departamento": "Ingeniero",
+        "id": 200
+    }
+DELETE
+Metodo DELETE
+https://localhost/diego_rivero_jesus_DWES06/public/api/vehiculos/usuarios/delete/200

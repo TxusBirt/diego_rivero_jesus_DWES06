@@ -1,9 +1,9 @@
 -- Active: 1707754906047@@127.0.0.1@3306
 -- Crear la base de datos
-CREATE DATABASE IF NOT EXISTS diego_rivero_jesus_DwesBd05;
+CREATE DATABASE IF NOT EXISTS diego_rivero_jesus_DwesBd06;
 
 -- Seleccionar la base de datos
-USE diego_rivero_jesus_DwesBd05;
+USE diego_rivero_jesus_DwesBd06;
 -- Eliminar las tablas si existen
 DROP TABLE IF EXISTS todoterrenos;
 DROP TABLE IF EXISTS turismos;
